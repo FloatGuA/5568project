@@ -1,0 +1,37 @@
+# ── Dependencies ─────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+
+# ── Hardhat build artifacts ───────────────────────────────────
+artifacts/
+artifacts-hardhat/
+cache/
+ignition/deployments/
+
+# ── Build output ──────────────────────────────────────────────
+frontend/dist/
+frontend/.vite/
+
+# ── Environment & secrets ─────────────────────────────────────
+.env
+.env.*
+token.json
+
+# ── Generated files ───────────────────────────────────────────
+deployed-addresses.json
+
+# ── Claude Code work files ────────────────────────────────────
+worklog.md
+PROGRESS.md
+TECHNICAL.md
+report-cn.md
+address.txt
+scripts/mintTest.cjs
+scripts/testDeposit.cjs
+*.jsonl
+
+# ── OS / editor ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

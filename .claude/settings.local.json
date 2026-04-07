@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(jsx|js|json|css\\)$\")",
+      "Bash(npm --version)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir -p /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project/contracts)",
+      "Bash(mkdir -p /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project/scripts)",
+      "Bash(mkdir -p /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project/ignition/modules)",
+      "Bash(npx hardhat:*)",
+      "Bash(npm pkg:*)",
+      "Bash(curl -s https://binaries.soliditylang.org/wasm/list.json)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx hardhat compile --config hardhat.config.cjs 2>&1)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d[''''abi''''], indent=2\\)\\)\")",
+      "Bash(curl -s -X POST http://127.0.0.1:8545 -H \"Content-Type: application/json\" -d '{\"\"\"\"jsonrpc\"\"\"\":\"\"\"\"2.0\"\"\"\",\"\"\"\"method\"\"\"\":\"\"\"\"eth_getCode\"\"\"\",\"\"\"\"params\"\"\"\":[\"\"\"\"0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0\"\"\"\",\"\"\"\"latest\"\"\"\"],\"\"\"\"id\"\"\"\":1}')",
+      "Bash(node:*)",
+      "Bash(curl -s -X POST http://127.0.0.1:8545 -H \"Content-Type: application/json\" -d '{\"\"\"\"jsonrpc\"\"\"\":\"\"\"\"2.0\"\"\"\",\"\"\"\"method\"\"\"\":\"\"\"\"eth_getBalance\"\"\"\",\"\"\"\"params\"\"\"\":[\"\"\"\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\"\"\"\",\"\"\"\"latest\"\"\"\"],\"\"\"\"id\"\"\"\":1}')",
+      "Bash(python3 -c \"import sys,json; r=json.load\\(sys.stdin\\); print\\(''''ETH余额:'''', int\\(r[''''result''''],16\\)/1e18\\)\")",
+      "Bash(npm run:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Read(//Users/hk00579ml/Documents/bybit-paywork/**)",
+      "Bash(zip -r /Users/hk00579ml/Desktop/5568project.zip COMP5521Project -x \"COMP5521Project/node_modules/*\" -x \"COMP5521Project/frontend/node_modules/*\" -x \"COMP5521Project/.git/*\" -x \"COMP5521Project/cache/*\" -x \"COMP5521Project/artifacts/*\" -x \"COMP5521Project/frontend/.vite/*\" -x \"COMP5521Project/frontend/dist/*\")",
+      "Bash(rm /Users/hk00579ml/Desktop/5568project.zip)",
+      "Bash(cp -r COMP5521Project /tmp/5568project)",
+      "Bash(zip -r /Users/hk00579ml/Desktop/5568project.zip /tmp/5568project -x \"/tmp/5568project/node_modules/*\" -x \"/tmp/5568project/frontend/node_modules/*\" -x \"/tmp/5568project/.git/*\" -x \"/tmp/5568project/cache/*\" -x \"/tmp/5568project/artifacts/*\" -x \"/tmp/5568project/frontend/.vite/*\" -x \"/tmp/5568project/frontend/dist/*\" -x \"/tmp/5568project/.idea/*\")",
+      "Bash(cp -r /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project ~/Desktop/5568project)",
+      "Bash(zip -r 5568project.zip 5568project -x \"5568project/node_modules/*\" -x \"5568project/frontend/node_modules/*\" -x \"5568project/.git/*\" -x \"5568project/cache/*\" -x \"5568project/artifacts/*\" -x \"5568project/frontend/.vite/*\" -x \"5568project/frontend/dist/*\" -x \"5568project/.idea/*\")",
+      "Bash(cp:*)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx hardhat:*)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 ./node_modules/.bin/hardhat test:*)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npm install)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 node_modules/.bin/hardhat test --config hardhat.config.cjs)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 node_modules/.bin/hardhat compile --config hardhat.config.cjs)",
+      "Bash(*)"
+    ]
+  }
+}
