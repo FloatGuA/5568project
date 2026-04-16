@@ -92,7 +92,7 @@
 
 ### 终端 1 — 启动区块链
 ```bash
-cd /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project
+cd /Users/hk00579ml/Documents/bybit-paywork/5568project
 npm run node
 ```
 看到 `Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/` 就说明启动成功，**保持这个窗口开着不要关**。
@@ -102,7 +102,7 @@ npm run node
 ### 终端 2 — 部署合约
 **等终端 1 出现上面的提示后**，再打开新终端运行：
 ```bash
-cd /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project
+cd /Users/hk00579ml/Documents/bybit-paywork/5568project
 npm run deploy
 ```
 看到 `Deployment complete!` 说明部署成功。
@@ -111,7 +111,7 @@ npm run deploy
 
 ### 终端 3 — 启动网页
 ```bash
-cd /Users/hk00579ml/Documents/bybit-paywork/COMP5521Project
+cd /Users/hk00579ml/Documents/bybit-paywork/5568project
 npm run frontend
 ```
 看到 `Local: http://localhost:3000/` 后，打开浏览器访问：
