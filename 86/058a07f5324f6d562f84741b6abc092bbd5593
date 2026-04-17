@@ -1,0 +1,23 @@
+GUIDE.md
+  d31f2b29047f16fd 95,105,114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.6-bit.3+b401fb2",
+  "base_commit_sha": "86058a07f5324f6d562f84741b6abc092bbd5593",
+  "prompts": {
+    "d31f2b29047f16fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2eebf696-1024-4bb4-b81f-991bc7fa103a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "ricardo.chen <ricardo.chen@bybit.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 3,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
