@@ -1,0 +1,23 @@
+README.md
+  f9aac48be7f6cb24 7-25,52,54-78,80-109,115,121,123-126,128-130,132,134-141,143-147,152-158,160-161,164-170,172-180,185,194-198,202-211,220,237,245,254-255,259-260,279,281-286,304-409,411,413,417-419,421
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.6-bit.3+b401fb2",
+  "base_commit_sha": "62cd5980980b6201bce5fb5bb5259a580d6c80aa",
+  "prompts": {
+    "f9aac48be7f6cb24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b9bed33a-826a-4be6-bcc8-171f3ae5d0af",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "ricardo.chen <ricardo.chen@bybit.com>",
+      "messages": [],
+      "total_additions": 283,
+      "total_deletions": 32,
+      "accepted_lines": 274,
+      "overriden_lines": 0
+    }
+  }
+}
